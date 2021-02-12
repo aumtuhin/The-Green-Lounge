@@ -1,4 +1,8 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: "Open Sans", sans-serif;
     padding: 20px 80px;
+}
+a {
+    text-decoration: none;
+    color: #4a4a4a;
 }
