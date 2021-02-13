@@ -3,6 +3,8 @@ import './sign-in.syles.scss';
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-buttom.component';
 
+import { signInWithGoogle } from '../../firebase/firebase.utils'
+
 class SignIn extends Component {
     constructor() {
         super();
@@ -47,9 +49,10 @@ class SignIn extends Component {
                         handleChange={this.handleChange}
                         label="Password"
                     />
-                    <CustomButton type="submit" value="Submit Form" >
-                        Sign in
-                    </CustomButton>
+                    <div className="buttons">
+                        <CustomButton type="submit" >Sign in</CustomButton>
+                        <CustomButton onClick={signInWithGoogle} isGoogleSignIn >Sign in with Google</CustomButton>
+                    </div>
                 </form>
             </div>
         );
