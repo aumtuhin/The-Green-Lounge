@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  sneakers: {
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  womens: {
     id: 4,
     title: 'Womens',
     routeName: 'womens',
@@ -198,10 +198,16 @@ const SHOP_DATA = [
         name: 'White Blouse',
         imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
         price: 20
+      },
+      {
+        id: 30,
+        name: 'Dress with a Polka Dot Pattern ',
+        imageUrl: 'https://img.ltwebstatic.com/images3_pi/2020/08/13/15973154742ed07a442d11adde2bed1a0a33c841d8_thumbnail_900x.webp',
+        price: 25
       }
     ]
   },
-  {
+  mens: {
     id: 5,
     title: 'Mens',
     routeName: 'mens',
@@ -244,6 +250,5 @@ const SHOP_DATA = [
       }
     ]
   }
-];
-
+}
 export default SHOP_DATA;
