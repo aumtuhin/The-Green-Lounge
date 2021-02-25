@@ -13,7 +13,7 @@ import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from './redux/user/user.selectors';
-import Intro from './components/intro/intro.component';
+import Footer from './components/footer/footer.component';
 
 class App extends Component {
 
@@ -49,6 +49,7 @@ class App extends Component {
           <Route exact path='/checkout' component={Checkout} />
           <Route exact path="/signin" render={() => this.props.currentUser ? (<Redirect to='/' />) : <SigninSignup />} />
         </Switch>
+        <Footer/>
       </div>
     );
   }

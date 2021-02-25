@@ -1,13 +1,19 @@
 .intro {
-    height: 80vh;
+    height: 70vh;
     margin-top: 100px;
-    background-color: #c6ddbe;
+    background-color: #8db57f;
     border-radius: 20px;
 
     h1{
+        color: #fff;
+        font-size: 70px;
         padding-top: 50px;
     }
     .intro-image {
         height: 400px;
+        padding-bottom: 20px;
+    }
+    a:hover {
+        text-decoration: none;
     }
 }

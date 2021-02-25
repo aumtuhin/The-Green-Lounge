@@ -1,11 +1,21 @@
 .menu {
-  background-color: #c6ddbe;
+  background-color: #ffff;
+
+  .navbar {
+    padding: 25px 20px;
+  }
 
   .fa-pagelines {
     color: green;
   }
 
+  .navbar-brand {
+    margin-left: 30px;
+    font-size: 22px;
+    color: green;
+  }
+
   .bg-light {
-    background-color: #c6ddbe !important;
+    background-color: #ffff !important;
   }
 }
