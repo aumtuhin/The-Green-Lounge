@@ -6,16 +6,16 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: black;
+  background-color:#00473e;
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
-  font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
   outline: none;
+  margin: 0 auto;
+  border-radius: 10px;
 
   &:hover {
     background-color: white;

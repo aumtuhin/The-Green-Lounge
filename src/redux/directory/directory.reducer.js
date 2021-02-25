@@ -1,33 +1,33 @@
 const INITIAL_STATE = {
     sections: [
         {
-            title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+            title: 'Breakfast',
+            imageUrl: 'https://i.ibb.co/6vqpcdg/breakfast.png',
             id: 1,
             linkUrl: 'shop/hats'
           },
           {
-            title: 'jackets',
-            imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+            title: 'Lunch',
+            imageUrl: 'https://i.ibb.co/whVzpFv/lunch.png',
             id: 2,
             linkUrl: 'shop/jackets'
           },
           {
-            title: 'sneakers',
-            imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+            title: 'Dinner',
+            imageUrl: 'https://i.ibb.co/vzjVBMV/dinner.png',
             id: 3,
             linkUrl: 'shop/sneakers'
           },
           {
-            title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            title: 'Deserts',
+            imageUrl: 'https://i.ibb.co/fMQk7sS/desert.png',
             size: 'large',
             id: 4,
             linkUrl: 'shop/womens'
           },
           {
-            title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            title: 'Drinkks',
+            imageUrl: 'https://i.ibb.co/m0Fs4xK/drinks.png',
             size: 'large',
             id: 5,
             linkUrl: 'shop/mens'
