@@ -9,7 +9,7 @@ import './collection.styles.scss';
 const CollectionPage = ({ collection }) => {
     const { title, items } = collection;
     return (
-        <div className="collection-page">
+        <div className="container collection-page">
             <h2 className="title">{title}</h2>
             <div className="items">
                 {

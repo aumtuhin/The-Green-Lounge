@@ -10,9 +10,9 @@ const CollectionItem = ({ item, addItem }) => {
             <div className="card" style={{ width: "18rem" }}>
                 <img src={imageUrl} alt="" className="card-img-top" />
                 <div className="card-footer">
-                    <h5 className="card-title">{name}</h5>
+                    <h4 className="card-title">{name}</h4>
                     <div className="flex-items">
-                    <p>${price}</p>
+                    <h5>${price}</h5>
                     <div className="add-cart" onClick={() => addItem(item)}>
                         <i className="fa fa-cart-plus"></i>
                     </div>

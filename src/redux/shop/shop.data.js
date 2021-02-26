@@ -1,19 +1,19 @@
 const SHOP_DATA = {
   hats: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Breakfast',
+    routeName: 'breakfast',
     items: [
       {
         id: 1,
         name: 'Brown Brim',
-        imageUrl: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80',
+        imageUrl: 'https://i.ibb.co/wChTRQY/1472739653-ghk100116-granola-bars.jpg',
         price: 25
       },
       {
         id: 2,
         name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        imageUrl: 'https://i.ibb.co/3s6Y8Qy/1481210269-smoothie.jpg',
         price: 18
       },
       {
