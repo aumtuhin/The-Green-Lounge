@@ -3,7 +3,6 @@ In this project I tried to build a simple recipe project with react and it's som
 ## The technologies have been used so far:
 <li>React</li>
 <li>Redux</li>
-<li>React Redux</li>
 <li>Reselect</li>
 <li>Redux Persist<li/>
 <li>Firebase</li>

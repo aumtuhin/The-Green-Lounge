@@ -11,6 +11,7 @@ const CollectionItem = ({ item, addItem }) => {
                 <img src={imageUrl} alt="" className="card-img-top" />
                 <div className="card-footer">
                     <h4 className="card-title">{name}</h4>
+                    <p>with cheese crust, with wholemeal dough, with pineapple, with artichokes, with baby mozzarella</p>
                     <div className="flex-items">
                     <h5>${price}</h5>
                     <div className="add-cart" onClick={() => addItem(item)}>

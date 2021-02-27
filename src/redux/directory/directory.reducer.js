@@ -4,33 +4,33 @@ const INITIAL_STATE = {
             title: 'Breakfast',
             imageUrl: 'https://i.ibb.co/6vqpcdg/breakfast.png',
             id: 1,
-            linkUrl: 'shop/hats'
+            linkUrl: 'menus/breakfast'
           },
           {
             title: 'Lunch',
             imageUrl: 'https://i.ibb.co/whVzpFv/lunch.png',
             id: 2,
-            linkUrl: 'shop/jackets'
+            linkUrl: 'menus/lunch'
           },
           {
             title: 'Dinner',
             imageUrl: 'https://i.ibb.co/vzjVBMV/dinner.png',
             id: 3,
-            linkUrl: 'shop/sneakers'
+            linkUrl: 'menus/dinner'
           },
           {
             title: 'Deserts',
             imageUrl: 'https://i.ibb.co/fMQk7sS/desert.png',
             size: 'large',
             id: 4,
-            linkUrl: 'shop/womens'
+            linkUrl: 'menus/deserts'
           },
           {
             title: 'Drinks',
             imageUrl: 'https://i.ibb.co/m0Fs4xK/drinks.png',
             size: 'large',
             id: 5,
-            linkUrl: 'shop/mens'
+            linkUrl: 'menus/drinks'
           }
     ]
 }
