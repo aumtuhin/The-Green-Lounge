@@ -22,7 +22,13 @@ const CartDropdown = ({ cartItems, history }) => {
                         <span className="empty-message">Your cart is empty</span>
                     )
             }
-            <Link to="/checkout"><button className="btn btn-primary">Order Now</button></Link>
+            {
+                cartItems.length ? 
+                <Link to="/checkout"><button className="btn btn-default">Order Now</button></Link>
+                :
+                <div></div>
+            }
+            
         </div>
     );
 }
