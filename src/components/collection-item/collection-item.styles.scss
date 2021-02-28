@@ -1,28 +1,37 @@
-.card {
-    transition: .3s;
+.menu-item {
+    padding-bottom: 15px;
+    .card {
+        transition: 0.3s;
 
-    &:hover {
-        background: #8db57f;
-        color: #fff;
-    }
+        &:hover {
+            background: #8db57f;
+            color: #fff;
+        }
 
-    img {
-        max-height: 300px;
-        background-size: cover;
-    }
-    .flex-items {
-        display: flex;
-        align-content: space-around;
-        justify-content: space-between;
+        img {
+            max-height: 300px;
+            background-size: cover;
+        }
+        .flex-items {
+            display: flex;
+            align-content: space-around;
+            justify-content: space-between;
 
-        .add-cart {
-            cursor: pointer;
-            font-size: 20px;
-            color: gray;
-            transition: .3s;
+            .add-cart {
+                cursor: pointer;
+                font-size: 20px;
+                color: gray;
+                transition: 0.3s;
 
-            &:hover {
-                color: #333;
+                &:hover {
+                    color: #333;
+                }
+            }
+        }
+
+        .card-footer {
+            p {
+                font-family: Lucida Sans;
             }
         }
     }

@@ -7,8 +7,8 @@ import { selectCartItemsCount } from '../../redux/cart/cart.selectors';
 import './cart-icon.styles.scss';
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
-  <div to='/' className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i className="fa fa-shopping-cart">({itemCount})</i>
+  <div className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i className="fa fa-shopping-cart"> ({itemCount})</i>
   </div>
 );
 

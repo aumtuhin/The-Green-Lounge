@@ -9,7 +9,7 @@ const Intro = ({match}) => {
         <div className="intro text-center">
             <h1>Let's Eat</h1>
             <img className="intro-image" src="https://purepng.com/public/uploads/large/purepng.com-tomato-saladsalad-9415246422565bqud.png" alt="Salad"/>
-            <Link to="/shop">
+            <Link to="/menus">
                 <CustomButton>Explore Menus</CustomButton>
             </Link>
         </div>

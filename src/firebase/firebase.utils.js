@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyDMqs_KCPBkvEwxGOrcU0XFmTUSHuKYD3c",
-    authDomain: "crown-db-5c28c.firebaseapp.com",
-    projectId: "crown-db-5c28c",
-    storageBucket: "crown-db-5c28c.appspot.com",
-    messagingSenderId: "710983573931",
-    appId: "1:710983573931:web:1efb219830182d753c32ee",
-    measurementId: "G-TKBM28S8LN"
+    apiKey: "AIzaSyBXb6UiUGWwB4ZA5nqHouaskjCFpGaun1Q",
+    authDomain: "the-green-lounge.firebaseapp.com",
+    projectId: "the-green-lounge",
+    storageBucket: "the-green-lounge.appspot.com",
+    messagingSenderId: "360528937108",
+    appId: "1:360528937108:web:54d44ba27f54f2ca94f481",
+    measurementId: "G-MJWPCN2ZPJ"
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {

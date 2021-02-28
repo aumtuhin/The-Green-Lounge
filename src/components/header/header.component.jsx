@@ -9,7 +9,7 @@ import { auth } from '../../firebase/firebase.utils';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import CartIcon from '../cart-icon/cart-icon.component';
 
-const Header = ({ currentUser, hidden }) => {
+const Header = ({ currentUser }) => {
     return (
         <div className="menu fixed-top">
             <div className="container">
@@ -24,8 +24,18 @@ const Header = ({ currentUser, hidden }) => {
                                 <Link className="nav-link" to="/menus">Menus</Link>
                             </li>
                             {currentUser ? (
-                                <li className="nav-item" onClick={() => auth.signOut()}>
-                                    <Link className='nav-link' to="">Sign Out</Link>
+                                <li className="nav-item dropdown">
+                                    <div className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        My Account
+                                    </div>
+                                    <div className="dropdown-menu">
+                                        <div className="dropdown-item">
+                                            <Link className="nav-link" to='/profile'>Profile</Link>
+                                        </div>
+                                        <div className="dropdown-item signout-btn" onClick={() => auth.signOut()}>
+                                            <div className='nav-link' to="">Sign Out</div>
+                                        </div>
+                                    </div>
                                 </li>
                             ) : (
                                     <li className="nav-item">

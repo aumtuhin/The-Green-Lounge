@@ -14,6 +14,7 @@ import { setCurrentUser } from './redux/user/user.actions';
 import { createStructuredSelector } from 'reselect';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Footer from './components/footer/footer.component';
+import UserProfile from './pages/user-profile/user-profile.component';
 
 class App extends Component {
 
@@ -48,14 +49,20 @@ class App extends Component {
           <Route path="/menus" component={ShopPage} />
           <Route exact path='/checkout' component={Checkout} />
           <Route exact path="/signin" render={() => this.props.currentUser ? (<Redirect to='/' />) : <SigninSignup />} />
+          {
+            this.props.currentUser ?
+              <Route exact path='/profile' component={UserProfile} />
+              :
+              <Redirect to='/' />
+          }
         </Switch>
-        <Footer/>
+        <Footer />
       </div>
     );
   }
 }
 
-const mapStateToProps = createStructuredSelector ({
+const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
 

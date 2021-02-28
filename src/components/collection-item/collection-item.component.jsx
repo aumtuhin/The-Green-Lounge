@@ -6,12 +6,12 @@ import { addItem } from '../../redux/cart/cart.actions';
 const CollectionItem = ({ item, addItem }) => {
     const { name, price, imageUrl } = item;
     return (
-        <div className="col-md-3">
+        <div className="col-md-3 menu-item">
             <div className="card" style={{ width: "18rem" }}>
                 <img src={imageUrl} alt="" className="card-img-top" />
                 <div className="card-footer">
                     <h4 className="card-title">{name}</h4>
-                    <p>with cheese crust, with wholemeal dough, with pineapple, with artichokes, with baby mozzarella</p>
+                    <p>With cheese crust, with wholemeal dough, with pineapple, with artichokes, with baby mozzarella</p>
                     <div className="flex-items">
                     <h5>${price}</h5>
                     <div className="add-cart" onClick={() => addItem(item)}>
