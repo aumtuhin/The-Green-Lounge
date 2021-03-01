@@ -31,12 +31,19 @@ const Checkout = ({ cartItems, total }) => {
                 </div>
             </div>
             {
-                cartItems.map(cartItem => (
+                cartItems.length ? cartItems.map(cartItem => (
                     <CheckoutItem key={cartItem.id} cartItem={cartItem} />
                 ))
+                :
+                <div className="empty-msg text-cemter">
+                    <h2>Your cart is empty</h2>
+                </div>
             }
+            
             <div className="total">TOTAL: ${total}</div>
-            <StripeButton price={total} />
+            {
+                cartItems.length ? <StripeButton price={total} /> : <div></div>
+            }
         </div>
     );
 }
