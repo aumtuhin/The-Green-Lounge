@@ -4,7 +4,7 @@
     background-color: #8db57f;
     border-radius: 20px;
 
-    h1{
+    h1 {
         color: #fff;
         font-size: 70px;
         padding-top: 50px;
@@ -15,5 +15,15 @@
     }
     a:hover {
         text-decoration: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        height: 550px;
+        
+        .intro-image {
+            height: 300px;
+        }
     }
 }

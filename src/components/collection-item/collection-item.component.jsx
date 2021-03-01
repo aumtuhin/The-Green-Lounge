@@ -4,20 +4,20 @@ import './collection-item.styles.scss';
 import { addItem } from '../../redux/cart/cart.actions';
 
 const CollectionItem = ({ item, addItem }) => {
-    const { name, price, imageUrl } = item;
+    const { name, desc, price, imageUrl } = item;
     return (
-        <div className="col-md-3 menu-item">
-            <div className="card" style={{ width: "18rem" }}>
-                <img src={imageUrl} alt="" className="card-img-top" />
-                <div className="card-footer">
-                    <h4 className="card-title">{name}</h4>
-                    <p>With cheese crust, with wholemeal dough, with pineapple, with artichokes, with baby mozzarella</p>
-                    <div className="flex-items">
-                    <h5>${price}</h5>
-                    <div className="add-cart" onClick={() => addItem(item)}>
-                        <i className="fa fa-cart-plus"></i>
-                    </div>
-                    </div>
+        <div className="card-container">
+            <div className="card-details">
+                <div className="recipe-img">
+                    <img src={imageUrl} alt="Recipe" />
+                </div>
+                <div className="title-details">
+                    <h2>{name}</h2>
+                    <p className="price">${price}</p>
+                    <p className="desc">{desc}</p>
+                </div>
+                <div className="add-btn" onClick={() => addItem(item)}>
+                    Add +
                 </div>
             </div>
         </div>

@@ -1,4 +1,9 @@
 .dropdown-item {
+    display: flex;
+
+    img {
+        height: 50px;
+    }
 
     .item-details {
         padding: 8px;

@@ -9,7 +9,7 @@ import MenuItem from '../menu-item/menu-item.component';
 
 const Directory = ({ sections }) => {
     return (
-        <div className="items">
+        <div className="items row">
             { sections.map(({ id, ...otherMenuItemsProps }) => (
                 <MenuItem key={id} {...otherMenuItemsProps} />
             ))}
