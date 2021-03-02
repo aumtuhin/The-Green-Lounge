@@ -13,4 +13,10 @@ A simple recipe app build with this following technologies :
 <li>User can pay through stripe API</li>
 
 ## Home Page
-![home view](./docs/img/home-page.png)
+![home page](./docs/img/home-page.png)
+
+## Breakfast Menu
+![home page](./docs/img/menu-by-category.png)
+
+## Checkout page and Basket
+![home page](./docs/img/checkput.png)
