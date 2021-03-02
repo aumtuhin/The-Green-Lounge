@@ -5,9 +5,15 @@ import './signin.signup.syles.scss';
 
 const SigninSignup = () => {
     return (
-        <div className="sign-in-and-sign-up">
-            <SignIn/>
-            <SignUp/>
+        <div className="auth-page container">
+            <div className="row">
+                <div className="col-md-6">
+                    <SignIn />
+                </div>
+                <div className="col-md-6">
+                    <SignUp />
+                </div>
+            </div>
         </div>
     );
 }

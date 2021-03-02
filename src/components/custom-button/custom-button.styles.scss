@@ -15,7 +15,7 @@
   justify-content: center;
   outline: none;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 4px;
   transition: .3s;
 
   &:hover {
@@ -27,22 +27,12 @@
   &.google-sign-in {
     background-color: #4285f4;
     color: white;
+    margin-left: 10px;
 
     &:hover {
-      background-color: #357ae8;
-      border: none;
-    }
-  }
-
-  &.inverted {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-
-    &:hover {
-      background-color: black;
-      color: white;
-      border: none;
+      background-color: #fff;
+      border-color: #4285f4;
+      color: #333;
     }
   }
 }
