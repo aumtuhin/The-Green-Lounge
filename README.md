@@ -67,7 +67,11 @@ const config = {
  npm start / yarn start
  ```
 
-Now visit [http://localhost:8080] and you will se your app is running.
+Now visit 
+```
+http://localhost:8080
+
+```
 
 ## License
 [MIT License](https://github.com/shoumma/Mister-Poster/blob/master/LICENSE).
