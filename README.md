@@ -4,7 +4,7 @@ In this project I tried to build a simple recipe project with react and it's som
 <li>React</li>
 <li>Redux</li>
 <li>Reselect</li>
-<li>Redux Persist<li/>
+<li>Redux Persist</li>
 <li>Firebase</li>
 
 
