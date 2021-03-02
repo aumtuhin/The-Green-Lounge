@@ -65,3 +65,16 @@ const config = {
  npm start / yarn start
  ```
 
+Now visit [http://localhost:8080] and you will se your app is running.
+
+## License
+[MIT License](https://github.com/shoumma/Mister-Poster/blob/master/LICENSE).
+
+## Credit
+The recipe images I collected from [Delish](https://www.delish.com/). 
+
+## Conclusion
+The is made for a job interview task. Star, Fork, Pull request and contribution will be much appreciated.
+
+
+
