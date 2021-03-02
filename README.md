@@ -9,5 +9,6 @@ A simple recipe app build with this following technologies :
 ### Features 
 <li>User can browse different menu by category like Lunch, Dinner so on</li>
 <li>User can add menu to baseket and edit in checkout</li>
-<li>User can sign in either gmail or by email password</li>
+<li>User can sign in either gmail or by email and password</li>
 <li>User can pay through stripe API</li>
+
