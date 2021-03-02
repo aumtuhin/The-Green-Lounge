@@ -60,3 +60,8 @@ const config = {
 };
 ```
 
+ Then again run 
+ ```
+ npm start / yarn start
+ ```
+
