@@ -21,7 +21,7 @@ A simple recipe app build with this following technologies :
 ## Checkout page and Basket
 ![Checkout](./docs/img/checkout.png)
 
-# Installation
+# Installation and Configuration
 Please make sure you have following software installed in your system:
 * Node.js
 * NPM / Yarn
@@ -39,3 +39,23 @@ $ npm i
 ```
 $ yarn start / npm start
 ```
+
+As we are using Firebase authentication we need to configure our firebase web api key
+<li>Go to firebase console</li>
+<li>Create a project clicking on Add Project</li>
+<li>Go to Authenticaton page from left menu and enable the Email/Password and Google sign-in providers </li>
+<li>Copy the firebase config api keys from Firebase SDK Snippet</li>
+<li>Go to firebase.utils.js file from src/firebase folder and paste it here as below:</li>
+
+```
+const config = {
+    apiKey: "",
+    authDomain: ",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+};
+```
+
