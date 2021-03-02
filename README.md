@@ -76,7 +76,7 @@ Now visit [http://localhost:8080] and you will se your app is running.
 The recipe images I collected from [Delish](https://www.delish.com/). 
 
 ## Conclusion
-The is made for a job interview task. Star, Fork, Pull request and contribution will be much appreciated.
+This project was a task for a job interview. Star, Fork, Pull request and contribution will be much appreciated.
 
 
 
