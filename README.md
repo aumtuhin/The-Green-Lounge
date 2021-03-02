@@ -12,6 +12,8 @@ A simple recipe app build with this following technologies :
 <li>User can sign in either gmail or by email and password</li>
 <li>User can pay through stripe API</li>
 
+### Some page might not be mobile responsive, Please ignore it, I will be working on it.
+
 ## Home Page
 ![home page](./docs/img/home-page.png)
 
@@ -21,7 +23,7 @@ A simple recipe app build with this following technologies :
 ## Checkout page and Basket
 ![Checkout](./docs/img/checkout.png)
 
-# Installation and Configuration
+## Installation and Configuration
 Please make sure you have following software installed in your system:
 * Node.js
 * NPM / Yarn
