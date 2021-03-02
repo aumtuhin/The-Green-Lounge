@@ -34,7 +34,7 @@ Just clone the repository:
 $ git clone https://github.com/aumtuhin/The-Green-Lounge
 ```
 
-Then we have to install the necessary dependencies using either NPM or Yarn:
+CD to the clone directory then we have to install the necessary dependencies using either NPM or Yarn:
 ```
 $ npm i
 ```
