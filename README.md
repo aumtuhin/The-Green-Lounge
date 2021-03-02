@@ -51,6 +51,7 @@ As we are using Firebase authentication we need to configure our firebase web ap
 
 
 ```
+
 const config = {
     apiKey: "",
     authDomain: ",
@@ -68,9 +69,9 @@ const config = {
  ```
 
 Now visit 
+
 ```
 http://localhost:8080
-
 ```
 
 ## License
