@@ -1,10 +1,7 @@
 ## The Green Lounge
-In this project I tried to build a simple recipe project with react and it's some core concepts like state managment with Redux. And ofcourse with firebase google and email password authentications.
-## The technologies have been used so far:
-<li>React</li>
-<li>Redux</li>
-<li>Reselect</li>
-<li>Redux Persist</li>
-<li>Firebase</li>
-
-
+A simple recipe app build with this following technologies :
+* [React](https://facebook.github.io/react/)
+* [Redux](http://redux.js.org/)
+* [Webpack](https://webpack.js.org/)
+* [Redux-Persist](https://github.com/rt2zz/redux-persist)
+* [Firebase](https://firebase.google.com/)
