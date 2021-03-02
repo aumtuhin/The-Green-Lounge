@@ -47,6 +47,7 @@ As we are using Firebase authentication we need to configure our firebase web ap
 <li>Copy the firebase config api keys from Firebase SDK Snippet</li>
 <li>Go to firebase.utils.js file from src/firebase folder and paste it here as below:</li>
 
+
 ```
 const config = {
     apiKey: "",
