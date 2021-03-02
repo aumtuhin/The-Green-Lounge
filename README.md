@@ -12,7 +12,7 @@ A simple recipe app build with this following technologies :
 <li>User can sign in either gmail or by email and password</li>
 <li>User can pay through stripe API</li>
 
-### Some page might not be mobile responsive, Please ignore it, I will be working on it.
+### Some pages might be not mobile responsive, Please ignore it, I will be working on it.
 
 ## Home Page
 ![home page](./docs/img/home-page.png)
