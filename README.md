@@ -17,7 +17,7 @@ A simple recipe app build with this following technologies :
 ## Home Page
 ![home page](./docs/img/home-page.png)
 
-## Breakfast Menu
+## Menu by category
 ![Menu](./docs/img/menu-by-category.png)
 
 ## Checkout page and Basket
