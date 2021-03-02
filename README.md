@@ -1,5 +1,5 @@
 ## The Green Lounge
-A simple recipe app build with this following technologies :
+A simple recipe app, build with these following technologies :
 * [React](https://facebook.github.io/react/)
 * [Redux](http://redux.js.org/)
 * [Webpack](https://webpack.js.org/)
@@ -8,8 +8,8 @@ A simple recipe app build with this following technologies :
 
 ### Features 
 <li>User can browse different menu by category like Lunch, Dinner so on</li>
-<li>User can add menu to baseket and edit in checkout</li>
-<li>User can sign in either gmail or by email and password</li>
+<li>User can add menu to the baseket and can edit in checkout</li>
+<li>User can sign in either by gmail or by email and password</li>
 <li>User can pay through stripe API</li>
 
 ### Some pages might be not mobile responsive, Please ignore it, I will be working on it.
