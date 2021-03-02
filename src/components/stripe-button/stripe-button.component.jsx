@@ -11,7 +11,7 @@ const StripeButton= ({price}) => {
     return (
         <StripeCheckout
             label='Pay Now'
-            name='React Ecommerce'
+            name='The Green Lounge'
             billingAddress
             shippingAddress
             image=''
