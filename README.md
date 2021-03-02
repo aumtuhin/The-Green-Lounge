@@ -6,7 +6,7 @@ A simple recipe app build with this following technologies :
 * [Redux-Persist](https://github.com/rt2zz/redux-persist)
 * [Firebase](https://firebase.google.com/)
 
-##Features 
+## Features 
 <li>User can browse different menu by category like Lunch, Dinner so on</li>
 <li>User can add menu to baseket and edit in checkout/li>
 <li>User can sign in either gmail or by email password</li>
