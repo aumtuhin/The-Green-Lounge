@@ -20,3 +20,22 @@ A simple recipe app build with this following technologies :
 
 ## Checkout page and Basket
 ![Checkout](./docs/img/checkout.png)
+
+# Installation
+Please make sure you have following software installed in your system:
+* Node.js
+* NPM / Yarn
+* Git
+
+Just clone the repository:
+```
+$ git clone https://github.com/aumtuhin/The-Green-Lounge
+```
+
+Then we have to install the necessary dependencies using either NPM or Yarn:
+```
+$ npm i
+```
+```
+$ yarn start / npm start
+```
