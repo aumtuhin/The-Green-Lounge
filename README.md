@@ -12,3 +12,5 @@ A simple recipe app build with this following technologies :
 <li>User can sign in either gmail or by email and password</li>
 <li>User can pay through stripe API</li>
 
+## Home Page
+![home view](./docs/home-page.png)
