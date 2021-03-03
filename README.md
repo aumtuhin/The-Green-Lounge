@@ -75,7 +75,7 @@ http://localhost:3000
 ```
 
 ## License
-[MIT License]().
+[MIT License](https://github.com/aumtuhin/The-Green-Lounge/blob/master/LICENSE).
 
 ## Credit
 The recipe images I collected from [Delish](https://www.delish.com/). 
