@@ -75,7 +75,7 @@ http://localhost:3000
 ```
 
 ## License
-[MIT License](https://github.com/shoumma/Mister-Poster/blob/master/LICENSE).
+[MIT License]().
 
 ## Credit
 The recipe images I collected from [Delish](https://www.delish.com/). 
