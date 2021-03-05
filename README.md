@@ -15,7 +15,7 @@ A simple recipe app, build with these following technologies :
 ### Some pages might be not mobile responsive, Please ignore it, I will be working on it.
 
 ## Home Page
-![home page](./docs/img/home-page.png)
+![home page](./docs/img/home.png)
 
 ## Menu by category
 ![Menu](./docs/img/menu-by-category.png)
