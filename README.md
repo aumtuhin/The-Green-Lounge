@@ -1,5 +1,5 @@
 ## The Green Lounge
-A simple recipe app, build with these following technologies :
+A simple recipe app, built with these following technologies :
 * [React](https://facebook.github.io/react/)
 * [Redux](http://redux.js.org/)
 * [Webpack](https://webpack.js.org/)
