@@ -81,7 +81,7 @@ http://localhost:3000
 The recipe images I collected from [Delish](https://www.delish.com/). 
 
 ## Conclusion
-This project was a task for a job interview. Star, Fork, Pull request and contribution will be much appreciated.
+Star, Fork, Pull request and contribution will be much appreciated.
 
 
 
